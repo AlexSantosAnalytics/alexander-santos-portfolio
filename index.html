@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Santos — Data & Financial Analytics</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="bg-grid"></canvas>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">AS<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow reveal">Data &amp; Financial Analytics</p>
+      <h1 class="reveal">Alex Santos</h1>
+      <p class="hero-sub reveal">
+        I help teams make sense of their numbers, building SQL pipelines,
+        dashboards, and financial models that surface signal in the noise, boost
+        productivity, and make decisions easier to trust. Currently exploring the
+        intersection of data analytics, business intelligence, and automation.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+      </div>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-stack">
+        <div class="photo-frame">
+          <!-- Drop your headshot in assets/headshot.jpg (same filename) and it will appear automatically -->
+          <img src="assets/headshot.jpg" alt="Alex Santos headshot" onerror="this.parentElement.classList.add('no-photo')">
+          <div class="photo-placeholder">
+            <span>Add your headshot</span>
+            <small>assets/headshot.jpg</small>
+          </div>
+        </div>
+        <svg class="ticker-ring" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="96"></circle>
+        </svg>
+        <div class="photo-badge">
+          <div class="mini-chart">
+            <span style="height:40%; animation-delay:0s"></span>
+            <span style="height:70%; animation-delay:0.15s"></span>
+            <span style="height:55%; animation-delay:0.3s"></span>
+            <span style="height:90%; animation-delay:0.45s"></span>
+            <span style="height:60%; animation-delay:0.6s"></span>
+          </div>
+          <div class="photo-badge-text">
+            <strong>Data-Driven</strong>
+            <span>Insights &amp; Analysis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<main>
+
+  <section id="resume" class="section alt resume-section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">Resume</p>
+      <h2 class="reveal">Resume</h2>
+      <div class="resume-preview reveal">
+        <a class="resume-thumb" href="assets/resume.pdf" target="_blank" rel="noopener">
+          <img src="assets/resume-thumb.png" alt="Preview of Alex Santos's resume">
+        </a>
+        <div class="resume-info">
+          <p>A quick look at my experience, skills, and education, or grab the full PDF below.</p>
+          <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">About</p>
+      <h2 class="reveal">My Story</h2>
+      <p class="about-text reveal">
+        I'm a recent graduate with a degree in Finance and a minor in Business Analytics,
+        currently working as a Data Analyst at BMW. I built my analytical foundation through
+        prior roles at FanDuel and New York Life, and I'm now pursuing my Master's degree
+        while staying close to the tools shaping the field, especially AI and how it's
+        changing the way we work with data.
+      </p>
+      <p class="about-text reveal">
+        Throughout school, I'm an active part of the finance and accounting program, and
+        today I co-founded BMW Link, a network built to connect interns and young
+        professionals as they navigate the start of their careers. Wherever I am, I care
+        most about turning numbers into decisions people can act on.
+      </p>
+      <p class="about-text reveal">
+        Outside of school and work, you'll usually find me outdoors. I love fishing, hiking,
+        and playing sports like volleyball and soccer, and I've been skateboarding for years.
+        You can usually find me either in the city or at the skatepark. I'm also a big fan of
+        thrifting and always look for an excuse to explore somewhere new.
+        <!-- Replace these paragraphs with your own bio -->
+      </p>
+
+      <div class="about-gallery reveal">
+        <img src="assets/photos/bmw-team-1-thumb.jpg" alt="Alex with his BMW Link team at BMW's Eastern Region and Training Center">
+        <img src="assets/photos/bmw-team-2-thumb.jpg" alt="Alex and his BMW colleagues">
+        <img src="assets/photos/bmw-team-3-thumb.jpg" alt="Alex and his BMW Link team in the lobby">
+        <img src="assets/photos/presenting.jpg" alt="Alex presenting to an audience">
+        <img src="assets/photos/founder-story.jpg" alt="Alex and his team presenting their Founder Story project">
+        <img src="assets/photos/founder-story-presenting.jpg" alt="Alex presenting the Founder Story project to a classroom">
+        <img src="assets/photos/team-portrait.jpg" alt="Alex with two teammates">
+        <img src="assets/photos/hvamc-presentation-thumb.jpg" alt="Alex at a Hudson Valley Additive Manufacturing Center presentation">
+        <img src="assets/photos/graduation-thumb.jpg" alt="Alex at his SUNY New Paltz graduation">
+        <img src="assets/photos/graduation-family-thumb.jpg" alt="Alex with his family at his SUNY New Paltz graduation">
+        <img src="assets/photos/onewtc-team-thumb.jpg" alt="Alex with his summer internship cohort at One World Trade Center">
+        <img src="assets/photos/nylife-team-thumb.jpg" alt="Alex with his New York Life intern cohort">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="section-inner">
+      <p class="section-kicker reveal">Selected Work</p>
+      <h2 class="reveal">Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/car-brand-dashboard.png" target="_blank" rel="noopener">
+            <img src="assets/projects/car-brand-dashboard.png" alt="Preview of the Automotive Sales Dashboard">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Business Intelligence</div>
+          <h3>Automotive Sales Dashboard</h3>
+          <p class="project-desc">An interactive dashboard tracking automotive sales, market share, and delivery performance by brand.</p>
+          <ul class="project-tools">
+            <li>Data Viz</li><li>Excel</li><li>Business Intelligence</li><li>KPI Reporting</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/nba-playoffs-python.pdf" target="_blank" rel="noopener">
+            <img src="assets/projects/nba-playoffs-thumb.png" alt="Preview of the NBA Playoffs: Statistical Insights report">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Sports Analytics</div>
+          <h3>NBA Playoffs: Statistical Insights</h3>
+          <p class="project-desc">A Python deep dive into NBA playoff performance using shot charts, advanced metrics, and player comparisons.</p>
+          <ul class="project-tools">
+            <li>Python</li><li>Jupyter</li><li>Pandas</li><li>Data Visualization</li><li>Statistics</li>
+          </ul>
+          <a href="assets/projects/nba-playoffs-python.pdf" class="project-download" download>Download PDF &darr;</a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/knicks-project.pdf" target="_blank" rel="noopener">
+            <img src="assets/projects/knicks-thumb.png" alt="Preview of the Knicks Player Stats Dashboard">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Sports Analytics</div>
+          <h3>Knicks Player Stats Dashboard</h3>
+          <p class="project-desc">A season-long dashboard tracking Knicks scoring, shooting splits, and rebounding leaders.</p>
+          <ul class="project-tools">
+            <li>SQL</li><li>Excel</li><li>Data Visualization</li><li>Dashboard Design</li>
+          </ul>
+          <a href="assets/projects/knicks-project.pdf" class="project-download" download>Download PDF &darr;</a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/nfl-analytics.pdf" target="_blank" rel="noopener">
+            <img src="assets/projects/nfl-thumb.png" alt="Preview of the NFL Season Analytics report">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Sports Analytics</div>
+          <h3>NFL Season Analytics</h3>
+          <p class="project-desc">SQL-driven analysis of NFL scoring trends, home-field advantage, and weekly performance across a full season.</p>
+          <ul class="project-tools">
+            <li>SQL</li><li>Excel</li><li>Data Cleaning</li><li>Reporting</li>
+          </ul>
+          <a href="assets/projects/nfl-analytics.pdf" class="project-download" download>Download PDF &darr;</a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/nyc-housing-tableau.pdf" target="_blank" rel="noopener">
+            <img src="assets/projects/nyc-housing-thumb.png" alt="Preview of the NYC Affordable Housing Analysis dashboard">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Business Intelligence</div>
+          <h3>NYC Affordable Housing Analysis</h3>
+          <p class="project-desc">A Tableau dashboard mapping affordable housing units and ownership trends across NYC boroughs.</p>
+          <ul class="project-tools">
+            <li>Tableau</li><li>Data Visualization</li><li>Public Data</li><li>Mapping</li>
+          </ul>
+          <a href="assets/projects/nyc-housing-tableau.pdf" class="project-download" download>Download PDF &darr;</a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-thumb" href="assets/projects/job-finder-automation.pdf" target="_blank" rel="noopener">
+            <img src="assets/projects/job-finder-thumb.png" alt="Preview of the Automated Job Finder project">
+            <span class="project-thumb-overlay">View project &rarr;</span>
+          </a>
+          <div class="project-tag">Automation</div>
+          <h3>Automated Job Finder</h3>
+          <p class="project-desc">An AI-powered workflow that sources, scores, and customizes job applications automatically.</p>
+          <ul class="project-tools">
+            <li>Automation</li><li>Python</li><li>AI</li><li>Web Scraping</li><li>Workflow Design</li>
+          </ul>
+          <a href="assets/projects/job-finder-automation.pdf" class="project-download" download>Download PDF &darr;</a>
+        </article>
+
+        <!--
+          To add a new project, copy one <article class="project-card reveal">...</article>
+          block and edit the thumbnail, tag, title, description, tools, and download link.
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">Toolkit</p>
+      <h2 class="reveal">Skills</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-pill">SQL</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">R</div>
+        <div class="skill-pill">Excel</div>
+        <div class="skill-pill">Tableau</div>
+        <div class="skill-pill">Power BI</div>
+        <div class="skill-pill">Financial Modeling</div>
+        <div class="skill-pill">Forecasting</div>
+        <div class="skill-pill">Data Visualization</div>
+        <div class="skill-pill">Statistics</div>
+        <div class="skill-pill">Process Automation</div>
+        <div class="skill-pill">VBA</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt contact-section">
+    <div class="section-inner">
+      <p class="section-kicker reveal">Get In Touch</p>
+      <h2 class="reveal">Let's connect.</h2>
+      <p class="reveal">
+        Open to opportunities in data analytics, business intelligence, and finance.
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:santosjavi4@gmail.com" class="btn btn-primary">Email Me</a>
+        <a href="https://www.linkedin.com/in/alexander-jorge-santos/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Alex Santos. Built from scratch.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
