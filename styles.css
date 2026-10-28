@@ -512,6 +512,11 @@ code {
   color: var(--accent);
   border-color: var(--accent);
 }
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 
 /* ---------- Skills ---------- */
 .skills-grid {
